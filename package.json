@@ -1,0 +1,50 @@
+{
+  "name": "@aomi/icon",
+  "version": "1.0.0",
+  "description": "icon",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "build": "tsc -d",
+    "watch": "tsc -d && tsc -w",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "prepublishOnly": "tsc -d",
+    "clear": "rm -rf *.d.ts *.js *.js.map **/*.d.ts **/*.js **/*.js.map **/*/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:aomi-web/icon.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "components",
+    "icon",
+    "svg"
+  ],
+  "author": "Sean <sean.snow@live.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/aomi-web/icon/issues"
+  },
+  "homepage": "https://github.com/aomi-web/icon#readme",
+  "optionalDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-native": "0.64.0"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@react-native-community/eslint-plugin": "^1.1.0",
+    "@types/react": "^17.0.3",
+    "@types/react-native": "^0.64.2",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^7.24.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.23.2",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  }
+}

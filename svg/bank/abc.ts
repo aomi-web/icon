@@ -1,4 +1,4 @@
-export default ({ ...props } = {}) => (global as any).createSvgComponent({
+export default ({...props} = {}) => (global as any).createSvgComponent({
   width: '200.1953125',
   height: '200',
   ...props,

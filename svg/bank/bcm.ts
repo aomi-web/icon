@@ -1,3 +1,6 @@
+/**
+ * 交通银行
+ */
 export default ({ ...props } = {}) => (global as any).createSvgComponent({
   width: '200',
   height: '200',
